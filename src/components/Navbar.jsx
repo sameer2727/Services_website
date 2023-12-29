@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { TbPhoneCall } from "react-icons/tb";
+
+import { FaRegUser } from "react-icons/fa";
+import Modal from './Modal';
 export const Navbar = () => {
   const [issticky,setsticky]=useState(false);
   // handle scroll functions
@@ -77,7 +79,9 @@ export const Navbar = () => {
           <span className="badge badge-sm indicator-item">100</span>
         </div>
       </div>
-    <a className="btn bg-green rounded-full mr-2 "><TbPhoneCall />Contact</a>
+    <button onClick={()=>document.getElementById('my_modal_5').showModal()}
+     className="btn bg-green rounded-full mr-2 "><FaRegUser />Login</button>
+    <Modal />
   </div>
 </div>
 </header>  )

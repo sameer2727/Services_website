@@ -82,7 +82,7 @@ function Menu() {
           
            <div className='section-conatiner'>
           {/* filtering items and data  */}
-          <div>
+          <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 px-10 mb-8'>
             {/* all category  btns */}
             <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
                <button onClick={showall}
@@ -99,7 +99,7 @@ function Menu() {
                               className={selectedCategory ==='Electrician'?"active" :""}>Electrician</button>
             </div>
             {/* sorting base filtering */}
-            <div>
+            <div className='flex justify-end mb-4 rounded-sm'>
               <div className='bg-black p-2'>
                  <FaFilter className='h-4 w-4 text-white' />
               </div>
