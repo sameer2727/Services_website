@@ -1,8 +1,36 @@
-[{
-    "id":"1" ,
-    "category":"plumber"
-},
-{
-    "id":"2" ,
-    "category":"carpenter"
-}]
+[ {  "id":"1",
+    "name" : "Carpentry Services",
+     "image" : "/images/Dcarp2.png",
+     "category":"Carpentry",
+     "price" :"999",
+     "des":"we are providing best carpenty services all over the world"
+      },
+      {  "id":"2",
+         "name" : "Electrical Services",
+     "image" : "/images/Dplumb2.png",
+     "category":"Electrician",
+     "price" :"109",
+     "des":"we are providing best Electical services all over the world"
+      },
+      {   "id":"3",
+        "name" : "Plumbing Services",
+     "image" : "/images/Dh1.png",
+     "category":"Plumber",
+     "price" :"800",
+     "des":"we are providing best Electical services all over the world"
+      },
+      {    "id":"4",
+         "name" : "Watrer purification Services",
+     "image" : "/images/Dcarp2.png",
+     "category":"Water Purification",
+     "price" :"788",
+     "des":"we are providing best Electical services all over the world"
+      },
+      {  "id":"5", 
+        "name" : "Roofing Repairs",
+     "image" : "/images/Dcarp2.png",
+     "category":"Roof Repaires",
+     "price" :"100",
+     "des":"we are providing best Electical services all over the world"
+      }
+]

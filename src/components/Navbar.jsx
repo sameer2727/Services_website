@@ -19,27 +19,25 @@ export const Navbar = () => {
   }
   },[])
   const navItems=<>
-     <li><a>Home</a></li>
+     <li><a href='/'>Home</a></li>
       <li tabIndex={0}>
         <details>
-          <summary>Menu</summary>
-          <ul className="p-2">
-            <li><a>All</a></li>
-            <li><a>Salad</a></li>
-            <li><a>Pizza</a></li>
+          <summary>Services</summary>
+          <ul className="p-2 text-left">
+            <li><a href='/service'>All</a></li>
+            <li><a>Carpentry Services</a></li>
+            <li><a>Electrician Services</a></li>
+            <li><a>Roofing Repairs</a></li>
+            <li><a>Plumbing Services</a></li>
+            <li><a> Water Purification</a></li>
           </ul>
         </details>
       </li>
 
-      <li tabIndex={0}>
-        <details>
-          <summary>Services</summary>
-          <ul className="p-2">
-            <li><a>Online-Order</a></li>
-            <li><a>Table-Booking</a></li>
-            <li><a>Order-Tracking</a></li>
-          </ul>
-        </details>
+      <li >
+        
+          <summary>Add Services</summary>
+          
       </li>
 
       <li><a>Offers</a></li> 
