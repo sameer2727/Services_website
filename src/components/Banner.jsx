@@ -1,13 +1,13 @@
 import React from 'react'
 import '../App.css'
-import banner1 from '../../public/banner1.jpg'
+// import banner1 from 
 function Banner() {
   return (
     <div className='section-container bg-gradient-to-r from-[#FAFAFA] to=[#FCFCFC] to-100% '>
         <div className='py-28 flex flex-col md:flex-row-reverse justify-between items-center gap-10'>
             {/* images_banner */}
 
-        <div className='md:w-1/2' > <img src={banner1} alt="" class="img1" /></div> 
+        <div className='md:w-1/2' > <img src='' alt="" class="img1" /></div> 
 
                {/* text_banner */}
             <div className='md:w-1/2 px-4' >
