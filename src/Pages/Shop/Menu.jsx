@@ -88,15 +88,14 @@ const Menu = () => {
           {/* content */}
           <div className=" text-center px-4 space-y-7">
             <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              For the Love of Delicious <span className="text-green">Food</span>
+            Doorstep Ease Service <span className="text-green">Your Hassle-Free Solution Hub</span>
             </h2>
             <p className="text-[#4A4A4A] text-xl md:w-4/5 mx-auto">
-              Come with family & feel the joy of mouthwatering food such as
-              Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
-              Rellenas and more for a moderate cost
+            Discover convenience and reliability at DoorstepEase. Connect with verified professionals for a wide array of essential home services. With a user-friendly interface, swift response times, and a focus on reliability, we bring ease and peace of mind right to your doorstep.
+             
             </p>
             <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
-              Order Now
+              Explore Now
             </button>
           </div>
         </div>
@@ -118,31 +117,31 @@ const Menu = () => {
               onClick={() => filterItems("salad")}
               className={selectedCategory === "salad" ? "active" : ""}
             >
-              Salad
+              Pest
             </button>
             <button
               onClick={() => filterItems("pizza")}
               className={selectedCategory === "pizza" ? "active" : ""}
             >
-              Pizza
+              Roof repairs
             </button>
             <button
               onClick={() => filterItems("soup")}
               className={selectedCategory === "soup" ? "active" : ""}
             >
-              Soups
+              Carpnetry
             </button>
             <button
               onClick={() => filterItems("dessert")}
               className={selectedCategory === "dessert" ? "active" : ""}
             >
-              Desserts
+              Kitchen
             </button>
             <button
               onClick={() => filterItems("drinks")}
               className={selectedCategory === "drinks" ? "active" : ""}
             >
-              Drinks
+              Plumbing
             </button>
           </div>
 

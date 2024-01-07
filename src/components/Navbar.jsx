@@ -35,35 +35,34 @@ const Navbar = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Menu</summary>
+          <summary>Services</summary>
           <ul className="p-2">
             <li>
               <a href="/menu">All</a>
             </li>
             <li>
-              <a>Salad</a>
+              <a href="/menu">Carpnetry Services</a>
             </li>
             <li>
-              <a>Pizza</a>
+            <a href="/menu">Plumbing Services</a>
+            </li>
+            <li>
+            <a href="/menu">Roofing Services</a>
+            </li>
+            <li>
+            <a href="/menu">Electrical Services</a>
+            </li>
+            <li>
+            <a href="/menu">Paint Services</a>
             </li>
           </ul>
         </details>
       </li>
       <li tabIndex={0}>
-        <details>
-          <summary>Services</summary>
-          <ul className="p-2">
-            <li>
-              <a>Online Order</a>
-            </li>
-            <li>
-              <a>Table Booking</a>
-            </li>
-            <li>
-              <a>Order Tracking</a>
-            </li>
-          </ul>
-        </details>
+        
+          <summary> Add Services</summary>
+          
+        
       </li>
       <li>
         <a>Offers</a>
@@ -106,8 +105,8 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a href="/">
-            <img src=''alt="" />
+          <a href="/" className="font-bold">
+        <p>Doorstep Ease Service</p>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
